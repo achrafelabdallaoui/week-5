@@ -1,0 +1,57 @@
+@media screen and (min-width:576px) and (max-width:1200px) {
+    h2 {
+        font-weight: bold;
+    }
+
+    table {
+        margin: 60px auto;
+    }
+
+    input {
+        width: 50vw;
+        height: 40px;
+    }
+
+    button {
+        width: 90px;
+        height: 40px;
+    }
+}
+@media screen and (min-width:1200px) {
+    header  div {
+        display: flex;
+        align-items: center;
+        
+    }
+    header nav ul  {
+        justify-content: flex-end;
+       margin-top: -60px;
+    }
+    header div p {
+        margin-left: 20px;
+    }
+    header div img {
+        width: 12vw;
+    }
+    header {
+        padding-top: 0.5em ;
+    }
+    table {
+        margin: 60px auto;
+        width: 60vw;
+    }
+    #vid {
+        display: inline-block;
+        display: flex;
+    }
+    #vid iframe,section {
+        width: 50vw;
+    }
+    aside #arti {
+        display: inline-block;
+       width: 31.5vw;
+    }
+    footer{
+       
+    }
+}
