@@ -51,9 +51,7 @@
         display: inline-block;
        width: 31.5vw;
     }
-    footer{
-       
-    }
+    
 }
 @media print {
     header,footer,aside,section,iframe {
