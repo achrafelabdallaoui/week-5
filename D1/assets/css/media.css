@@ -18,6 +18,9 @@
     }
 }
 @media screen and (min-width:1200px) {
+    body {
+        padding: 15px 110px;
+    }
     header  div {
         display: flex;
         align-items: center;
