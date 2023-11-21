@@ -55,3 +55,12 @@
        
     }
 }
+@media print {
+    header,footer,aside,section,iframe {
+        display: none;
+    }
+    table thead tr {
+        background-color:white;
+    }
+    
+}
