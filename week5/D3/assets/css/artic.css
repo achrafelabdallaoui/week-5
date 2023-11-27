@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;900&display=swap");
+.miele {
+width: 500px;
+height: 300px;
+}
+
+article {
+    font-family: "Outfit", sans-serif;
+    color: rgb(97, 36, 6);
+    padding: 50px;
+    
+}
+ .arti {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+ }
+ @media screen and (max-width:575px) {
+    .riverse {display: flex;
+        flex-direction: column-reverse;
+        gap: 15px;
+        padding: 20px;
+       
+    }
+    .miele {
+        max-width: 400px;
+    }
+ }

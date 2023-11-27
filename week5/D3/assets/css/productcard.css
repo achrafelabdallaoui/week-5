@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;900&display=swap");
+
+.product {
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    width: 15vh;
+    min-width: 250px;
+    min-height: 40vh;
+    border-radius: 75px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: rgb(97, 36, 6);
+    background-color: rgb(251, 247, 227);
+}
+.data {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+img {
+    object-fit: cover;
+    flex: 3 0 240px;
+}
+
+.bio,
+.button {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.prezzo {
+    display: flex;
+    /* align-content: end;
+    align-items: baseline; */
+    margin-left: 20px;
+}
+
+button {
+    border: none;
+    border-radius: 80px;
+    background-color: rgb(243, 223, 133);
+    color: rgb(98, 41, 11);
+    width: 160px;
+    height: 35px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.product .bio .titolo {
+    font-weight: bolder;
+    font-size: 24px;
+
+}
+
+.product .bio .sottotitolo {
+    margin-top: -20px;
+    
+}
+.sottotitolo, .titolo {
+    text-align: center;
+}
